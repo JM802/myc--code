@@ -17,6 +17,7 @@
 //     {
 //         swap(s[start], s[i]);
 //         vector<string> sub = permutation(s, st + s[start], start + 1);
+//         swap(s[start], s[i]);
 //         for (auto &s1 : sub)
 //         {
 //             v1.push_back(s1);
