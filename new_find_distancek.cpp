@@ -90,7 +90,7 @@
 //             v1.push_back(tar->data);
 //             return v1;
 //         }
-//         else
+//         else if(deep<k)
 //         {
 //             if(tar->lchild!=from)
 //             {   
@@ -108,7 +108,15 @@
 //                 v1.insert(v1.end(), p.begin(), p.end());
 //             }
 //         }
+//         else
+//         {
+//             return {};
+//         }
 //         return v1;
+//     }
+//     else
+//     {
+//         return {};
 //     }
 // }
 
