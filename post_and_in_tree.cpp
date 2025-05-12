@@ -72,7 +72,7 @@ int main()
     {
         v1[i] = new btnode(poststr[i]);
     }
-    for (int i = 0; i < instr.size(); i++)
+    for (size_t i = 0; i < instr.size(); i++)
     {
         nodemaps[instr[i]] = i;
     }
